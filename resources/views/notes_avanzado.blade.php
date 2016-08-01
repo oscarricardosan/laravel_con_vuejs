@@ -3,13 +3,15 @@
     <div class="container">
         <div class="row">
 
-            <h1>Curso de VueJS | Styde.net</h1>
+            <h1>Curso de VueJS | Styde.net | Avanzado</h1>
             <div class="alert-container">
                 <p v-show="alert.display" class="alert alert-danger animated" id="error-message" transition="myFade">
                     @{{alert.message}}
                 </p>
             </div>
-
+            <a href="https://github.com/oscarricardosan/laravel_con_vuejs/blob/master/public/js/notes_avanzado.js" target="_blank">
+                https://github.com/oscarricardosan/laravel_con_vuejs/blob/master/public/js/notes_avanzado.js
+            </a>
             <table class="table table-striped">
                 <thead>
                 <tr>

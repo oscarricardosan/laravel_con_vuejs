@@ -3,8 +3,11 @@
     <div class="container">
         <div class="row">
 
-            <h1>Curso de VueJS | Styde.net</h1>
+            <h1>Curso de VueJS | Styde.net | Basico</h1>
             <p v-show="error" class="alert alert-danger" id="error-message">@{{error}}</p>
+            <a href="https://github.com/oscarricardosan/laravel_con_vuejs/blob/master/public/js/notes.js" target="_blank">
+                https://github.com/oscarricardosan/laravel_con_vuejs/blob/master/public/js/notes.js
+            </a>
             <table class="table table-striped">
                 <thead>
                 <tr>

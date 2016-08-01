@@ -2,44 +2,28 @@
 <html>
     <head>
         <title>Laravel</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <style>
-            html, body {
-                height: 100%;
-            }
-
             body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
+                color: black;
+                font-family: 'Roboto', sans-serif;
             }
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
+        <h1>Curso de Vuej.js y Laravel en Styde.net<br>
+            <a href="https://styde.net/curso-de-vue-js/" target="_blank">https://styde.net/curso-de-vue-js/</a>
+        </h1>
+        <p>Para el curso se crea un modulo de notas, lo separo en dos versiones</p>
+        <ul>
+            <li>
+                <a href="notes" target="_blank">Versión basica </a>
+                Uso se vue.js con jquery para traer datos. Uso del operador $parent.
+            </li>
+            <li>
+                <a href="notes_avanzado" target="_blank">Versión Avanzada</a>
+                Uso de transitions, components, resources, implementa token de seguridad y se retira jquery.
+            </li>
+        </ul>
     </body>
 </html>
